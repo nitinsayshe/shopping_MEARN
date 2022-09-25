@@ -1,0 +1,149 @@
+.header{
+    position: fixed;
+    z-index: 10;
+}
+.navbar__component {
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar__logo {
+   background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -9px -50px;
+	width: 98px;
+	height: 31px;
+    margin: 18px;
+}
+.navbar__locator {
+    display:flex;
+    margin: 20px 0px;
+}
+.navbar__location {
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.navbar__locatorImage {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -70px -378px;
+	width: 16px;
+	height: 18px;
+}
+.navbar__searchcomponent {
+    display:flex;
+    margin-left: 72px;
+}
+.navbar__searchboxdiv {
+    background-color: #FEBE68;
+    height: 36px;
+    width: 48px;
+    border-radius: 0px 4px 4px 0px;
+    margin-top: 9px;
+}
+.navbar__searchbox{
+    width: 640px;
+    height: 38px;
+    margin-top: 8px;
+}
+.navbar__searchicon {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -9px -289px;
+	width: 23px;
+	height: 23px;
+    margin: 8px;
+}
+.nav__dropdown {
+    width: 61px;
+    height: 38px;
+    margin-top: 8px;
+    background-color: #e6e5e5;
+    border-radius: 5px 0px 0px 5px;
+    text-align-last: center;
+}
+.navbar__signin{
+    width: 120px;
+    margin-top: 13px;
+    margin-left: 60px;
+}
+.navbar__returns {
+    width: 80px;
+    margin-top:13px;
+    margin-left:10px
+}
+.navbar__cart {
+    display:flex;
+    margin-top: 15px;
+}
+.navbar_text {
+    color: white;
+}
+.cart__image {
+    background: url('https://ik.imagekit.io/amazon1234/sprite_350x_q7QZkJCVl.png?updatedAt=1627121934264') no-repeat -217px -336px;
+    width: 43px;
+	height: 30px;
+}
+.navbar_text_cart {
+    margin-top: 13px;
+    font-weight: bold;
+    position: relative;
+    left: -10px;
+}
+.cart__item {
+    font-weight: bold;
+    position: relative;
+    left: -23px;
+    top: -3px;
+    color: #F08805;
+}
+
+.navbar__footer {
+    width: 100vw;
+    height: 30px;
+    background-color: #22303E;
+    color: white;
+    display: flex;
+}
+.navbar__footer_text {
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* Dropdown Button */
+.dropbtn {
+   
+    color: white;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
